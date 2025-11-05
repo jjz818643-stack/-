@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()  # 会把 .env 加载到环境变量
 
 # ---------- 配置 ----------
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "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")
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "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aA")
 ENDPOINT = "https://models.inference.ai.azure.com"
 MODEL = "gpt-4o"
 HEADERS = {
@@ -153,3 +153,4 @@ async def api_refine(req: RefineRequest):
 def ping():
 
     return "pong"
+
